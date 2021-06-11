@@ -1,0 +1,58 @@
+.number {
+  position: relative;
+
+  width: 100%;
+  user-select: none;
+
+}
+
+.number-minus,
+.number-plus {
+  // position: absolute;
+  // top: 0;
+
+  display: block;
+  width: 25%;
+  height: 100%;
+
+  color: #ffffff;
+  font-family: "Gilroy - Semibold";
+  font-size: 29px;
+  font-weight: 400;
+
+  background: #00c955;
+}
+
+
+.number-minus {
+  border-radius: 15px 0 0 15px;
+}
+
+.number-plus {
+  border-radius: 0 15px 15px 0;
+}
+
+// .number-minus:hover,
+// .number-plus:hover {
+//   background: #fffcfb;
+// }
+
+// .number-minus:active,
+// .number-plus:active {
+//   background: #e8e4e2;
+// }
+
+.number-text {
+  width: 50%;
+  height: 100%;
+
+  color: #6d6d6d;
+  font-family: "Gilroy - Semibold";
+  font-size: 29px;
+  font-weight: 400;
+  text-align: center;
+
+  background: #ffffff;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,39 @@
+footer {
+  background-color: #000;
+}
+
+.footer {
+  padding: 54px 0 110px;
+}
+
+.footer-nav {
+  a {
+    font-size: 13px;
+  }
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  margin: 0 90px 0;
+}
+
+
+.footer-social {
+  a + a {
+    margin-left: 10px;
+  }
+
+  a {
+    transition: all .4s;
+  }
+
+  a:hover {
+    transform:scale(1.1) translateY(-10%);
+  }
+}

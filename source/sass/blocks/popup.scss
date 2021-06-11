@@ -1,0 +1,136 @@
+.header-delivery {
+  position: relative;
+}
+
+.basked-popup {
+  display: none;
+  top: 50px;
+  position: absolute;
+  width: 287px;
+  box-shadow: 0 11px 33px 7px rgba(0, 0, 0, 0.32);
+  border: 0 solid #020303;
+  background-color: #ffffff;
+  z-index: 20;
+  right: -30px;
+  border-radius: 25px;
+}
+
+.basked-popup__body {
+  padding: 25px 0 0;
+}
+
+.basked-popup__title {
+  color: #0c0807;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 0 30px 11px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.basked-popup__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 66px;
+  align-items: center;
+  background-color: #00db5d;
+  color: #ffffff;
+  font-family: "Gilroy - Semibold";
+  font-size: 23px;
+  font-weight: 400;
+  border-radius: 0 0 25px 25px;
+}
+
+
+.itog {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 93px;
+  background-color: #7b838cc2;
+  background-image: linear-gradient(to top, #7b838c 0%, #7b838c 22%, #515860 100%);
+
+  span {
+    color: #ffffff;
+    font-family: "Gilroy - Semibold";
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  &__value {
+    color: #ffffff;
+    font-family: "Gilroy - Semibold";
+    font-size: 31px;
+    font-weight: 400;
+  }
+}
+
+.popup-card {
+  padding: 16px 30px 20px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid  #d7d7d7;
+}
+
+.popup-card__title {
+  color: #000000;
+  font-family: "Gilroy - Semibold";
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.popup-card__counter {
+  display: flex;
+
+  .number-minus {
+    max-width: 30px;
+    width: 100%;
+    border-radius: 11px 0 0 11px;
+  }
+
+  .number-text {
+    max-width: 35px;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #0c0807;
+    font-family: "Gilroy - Semibold";
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .number-plus {
+    max-width: 30px;
+    width: 100%;
+    border-radius: 0 11px 11px 0;
+  }
+}
+
+.popup-card__bottom {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    color: #8f8f8f;
+    font-family: "Gilroy - Semibold";
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+
+.hide-card {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  svg {
+    fill: #ff001e;
+  }
+}
+

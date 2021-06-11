@@ -1,0 +1,143 @@
+.catalog-sec {
+  padding-bottom: 110px;
+}
+
+
+.main-top {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-top__title {
+  color: #ffffff;
+  font-family: Gilroy;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.main-top__link {
+  color: #ffffff;
+  font-family: Gilroy;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+//  card
+
+.card-top, .card-top__img {
+  border-radius: 37px 37px 0 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 37px;
+  max-width: 334px;
+  width: 100%;
+  position: relative;
+}
+
+.card--new {
+
+  &::before {
+    position: absolute;
+    padding: 0 10px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ff001e;
+    content: 'new';
+    color: #ffffff;
+    font-family: "Gilroy - Semibold";
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.08px;
+    top: 24px;
+    left: 24px;
+  }
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 29px 28px 25px;
+  background-color: #fff;
+  min-height: 175px;
+  border-radius: 0 0 37px 37px;
+}
+
+.card-bottom__title {
+  color: #000000;
+  font-family: "Gilroy - Semibold";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.17px;
+}
+
+.card-info__desk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 47px;
+  border: 1px solid #717171;
+  border-radius: 15px;
+  padding: 0 20px;
+  transition: .3s;
+
+  span {
+    color: #6d6d6d;
+    font-family: "Gilroy - Semibold";
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+}
+
+.card-info__desk:hover {
+  background-color: #00c955;
+  border: none;
+
+  span {
+    color: #fff;
+  }
+
+  .card-buy {
+    color: #fff;
+  }
+}
+
+.card-buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6d6d6d;
+  font-family: "Gilroy - Semibold";
+  font-size: 22px;
+  font-weight: 400;
+
+  svg {
+    fill: currentColor;
+    margin-left: 10px;
+  }
+}
+
+.card-info__mobile {
+  height: 47px;
+  border: 1px solid #717171;
+  border-radius: 15px;
+  display: none;
+}
+
+.card-box {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 32%);
+  grid-gap: 25px 0;
+}
+
+
